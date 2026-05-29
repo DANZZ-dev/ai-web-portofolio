@@ -224,21 +224,27 @@ async function getAIResponse(message) {
 
     const response = await fetch(
 
-      "https://openrouter.ai/api/v1/chat/completions",
+  "https://openrouter.ai/api/v1/chat/completions",
 
-      {
+  {
 
-        method: "POST",
+    method: "POST",
 
-        headers: {
+    headers: {
 
-          "Authorization":
-          `Bearer ${API_KEY}`,
+      "Authorization":
+      `Bearer ${API_KEY}`,
 
-          "Content-Type":
-          "application/json"
+      "Content-Type":
+      "application/json",
 
-        },
+      "HTTP-Referer":
+      "https://ai-web-portofolio.vercel.app",
+
+      "X-Title":
+      "DANDI AI"
+
+    },
 
         body: JSON.stringify({
 

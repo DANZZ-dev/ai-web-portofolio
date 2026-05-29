@@ -175,7 +175,7 @@ async function getAIResponse(message) {
         body: JSON.stringify({
 
           model:
-          "ibm-granite/granite-4.1-8b",
+          "google/gemma-4-26b-a4b-it",
 
           messages: [
 

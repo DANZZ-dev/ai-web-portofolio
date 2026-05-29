@@ -8,107 +8,33 @@ tsParticles.load("particles-js", {
     enable: false
   },
 
-  background: {
-    color: {
-      value: "transparent"
-    }
-  },
-
-  fpsLimit: 120,
+  fpsLimit: 30,
 
   particles: {
 
     number: {
-      value: 90,
-      density: {
-        enable: true,
-        area: 800
-      }
+      value: 18
     },
 
     color: {
-      value: [
-        "#7f5cff",
-        "#4fd1ff",
-        "#ffffff"
-      ]
-    },
-
-    shape: {
-      type: "circle"
-    },
-
-    opacity: {
-      value: 0.6,
-      random: true
-    },
-
-    size: {
-      value: {
-        min: 1,
-        max: 5
-      },
-      random: true
+      value: "#7f5cff"
     },
 
     links: {
-      enable: true,
-      distance: 140,
-      color: "#7f5cff",
-      opacity: 0.25,
-      width: 1
+      enable: false
     },
 
     move: {
-      enable: true,
-      speed: 1.5,
-      direction: "none",
-      random: true,
-      straight: false,
+      speed: 0.5
+    },
 
-      outModes: {
-        default: "bounce"
-      }
+    size: {
+      value: 2
     }
 
   },
 
-  detectRetina: true,
-
-  interactivity: {
-
-    events: {
-
-      onHover: {
-        enable: true,
-        mode: "grab"
-      },
-
-      onClick: {
-        enable: true,
-        mode: "push"
-      },
-
-      resize: true
-    },
-
-    modes: {
-
-      grab: {
-        distance: 180,
-
-        links: {
-          opacity: 0.8
-        }
-      },
-
-      push: {
-        quantity: 5
-      }
-
-    }
-
-  }
+  detectRetina: false
 
 });
 

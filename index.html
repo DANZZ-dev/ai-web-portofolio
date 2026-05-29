@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DANDI | Personal Website</title>
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- ICON -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- PARTICLE BACKGROUND -->
+  <div id="particles-js"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-code"></i> DANDI
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#ai">AI Chat</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+
+    <!-- TEXT -->
+    <div class="hero-text">
+
+      <span class="welcome">
+        👋 Halo, Selamat Datang
+      </span>
+
+      <h1>DANDI</h1>
+
+      <h2>
+        Frontend Enthusiast <br>
+        & AI Explorer
+      </h2>
+
+      <p>
+        Saya suka ngoding terutama di bagian frontend
+        untuk membuat tampilan website yang modern,
+        interaktif, dan responsif. Saya juga tertarik
+        dengan perkembangan AI dan suka bereksperimen
+        dengan teknologi kreatif.
+      </p>
+
+      <div class="hero-buttons">
+        <button class="btn-primary">
+          <i class="fa-solid fa-rocket"></i>
+          Explore
+        </button>
+
+        <button class="btn-secondary">
+          <i class="fa-solid fa-user"></i>
+          About Me
+        </button>
+      </div>
+
+    </div>
+
+    <!-- IMAGE -->
+    <div class="hero-image">
+
+      <div class="image-card">
+
+        <img src="img/dandi.JPEG" alt="DANDI">
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+
+    <div class="section-title">
+      <h2>Tentang Saya</h2>
+    </div>
+
+    <div class="about-container">
+
+      <div class="about-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>Frontend</h3>
+        <p>
+          Suka membuat tampilan website modern
+          dan interaktif.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <i class="fa-solid fa-robot"></i>
+        <h3>AI Explorer</h3>
+        <p>
+          Tertarik dengan teknologi AI dan chatbot.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <i class="fa-solid fa-lightbulb"></i>
+        <h3>Creative</h3>
+        <p>
+          Suka membuat project kreatif dan unik.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- AI CHAT -->
+  <section class="ai-section" id="ai">
+
+    <div class="section-title">
+      <h2>DANDI AI Assistant</h2>
+    </div>
+
+    <div class="chat-container">
+
+      <!-- CHAT HEADER -->
+      <div class="chat-header">
+        <i class="fa-solid fa-robot"></i>
+        <span>AI Online</span>
+      </div>
+
+      <!-- CHAT BODY -->
+      <div class="chat-body" id="chat-body">
+
+        <div class="ai-message">
+          Halo 👋 Saya adalah AI Assistant DANDI.
+          Tanyakan apa saja!
+        </div>
+
+      </div>
+
+      <!-- INPUT -->
+      <div class="chat-input">
+
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Tanya sesuatu..."
+        >
+
+        <button id="send-btn">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      © 2026 DANDI | Personal Website
+    </p>
+  </footer>
+
+  <!-- PARTICLES -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+  <!-- THREE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
